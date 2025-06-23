@@ -133,3 +133,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ALLOWED_HOSTS = ['weatherapi-ewc8.onrender.com']
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://weatherapi-ewc8.onrender.com',
+]
+
